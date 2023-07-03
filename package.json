@@ -1,0 +1,35 @@
+{
+  "name": "simple-crud-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "npx nodemon ./src/index.ts",
+    "start:prod": "tsc && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karpinskaya/simple-crud-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karpinskaya/simple-crud-api/issues"
+  },
+  "homepage": "https://github.com/karpinskaya/simple-crud-api#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.2",
+    "@types/uuid": "^9.0.2",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.0"
+  }
+}
