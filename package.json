@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start:dev": "npx nodemon ./src/index.ts",
-    "start:prod": "ts-node ./src/index.ts"
+    "start:prod": "tsc && node ./dist/index.js"
   },
   "repository": {
     "type": "git",
