@@ -1,11 +1,12 @@
 import http, { IncomingMessage, ServerResponse } from 'http';
 import dotenv from 'dotenv';
+import router from './user.router';
 
 dotenv.config();
 
 const server = http.createServer(
     (req: IncomingMessage, res: ServerResponse) => {
-        //
+        router(req, res);
     }
 );
 
