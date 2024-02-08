@@ -2,7 +2,7 @@
 
 Welcome to the **Simple CRUD API** application! It performs GET, POST, PUT and DELETE requests using in-memory database.
 
-:point_right: ## First steps
+## First steps
 
 Clone following repository and switch to `dev` branch:
 
@@ -16,16 +16,16 @@ Install all dependencies:
 
 **Rename .env.example file**
 
-:rocket: ## Scripts
+## Scripts
 
 Run application in development mode:
 
-`npm run start:dev`
+:rocket: `npm run start:dev`
 
 Run application in production mode:
 
-`npm run start:prod`
+:rocket: `npm run start:prod`
 
 Run tests:
 
-`npm run start:test`
+:rocket: `npm run start:test`
